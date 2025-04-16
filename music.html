@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icons/video-player (2).png">
+    <link rel="stylesheet" href="music.css">
+    <script src="musica.js" async></script>
+    <script src="music.js" async></script>
+    <title>My Old Playlist</title>
+</head>
+<body>
+    <!-- Welcome Screen -->
+<div class="welcome-screen" id="welcomeScreen">
+    <div class="welcome-content">
+        <h1 class="welcome-title"><span class="myold">My Old</span><br> Playlist</h1>
+        <h2 class="welcome-subtitle">Plug in your headphones and hit the button to play now</h2>
+        <button class="enter-btn" id="enterBtn">▶</button>
+        <div class="loading-bar">
+            <div class="loading-progress" id="loadingProgress"></div>
+        </div>
+    </div>
+    <div class="welcome-image">
+        <img src="images/Untitled_design__7_-removebg-preview.png" alt="Cassette player image" width="700px" height="700px">
+    </div>
+</div>
+    <!-- Your existing retro player HTML goes here -->
+ 
+        <!-- ... all your existing player code ... -->
+   
+
+        <div class="player-container">
+            <div class="side-image">
+                <img src="images/Untitled_design__7_-removebg-preview.png" alt="Left cassette image" >
+            </div>
+            
+            <div class="cassette-player" id="musicPlayer">
+                <div class="brand">TESSIE</div>
+               
+                <div class="display">
+                    <div class="song-title">NOW PLAYING</div>
+                    <div class="artist">TAPE DECK</div>
+                </div>
+                
+                <div class="cassette">
+                    <div class="reels">
+                        <div class="reel left"></div>
+                        <div class="reel right"></div>
+                        <div class="tape"></div>
+                    </div>
+                </div>
+                
+                <div class="equalizer">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                
+                <div class="progress-container">
+                    <div class="progress"></div>
+                </div>
+                
+                <div class="time-display">
+                    <span class="current-time">0:00</span>
+                    <span class="duration">0:00</span>
+                </div>
+                
+                <div class="controls">
+                    <div class="control-btn prev-btn">⏮</div>
+                    <div class="control-btn play-btn">▶</div>
+                    <div class="control-btn next-btn">⏭</div>
+                </div>
+                
+                <div class="playlist">
+                    <div class="playlist-item active" data-src="music\Doja Cat Go Off Audio.mp3" data-title="Doja Cat Go Off Audio.mp3" data-artist="DOJA CAT">
+                        GO OFF-DOJA CAT
+                    </div>
+                    <div class="playlist-item" data-src="music\Dua Lipa - Dance The Night.mp3" data-title="Dua Lipa - Dance The Night.mp3" data-artist="DUA LIPA">
+                        Dua Lipa - Dance The Night
+                    </div>
+                    <div class="playlist-item" data-src="music\Post Malone, Swae Lee - Sunflower.mp3" data-title="Post Malone, Swae Lee - Sunflower.mp3" data-artist="Post Malone, Swae Lee">
+                        Post Malone, Swae Lee - Sunflower 
+                    </div>
+                    <div class="playlist-item" data-src="music\French Montana - Unforgettable ft. Swae Lee.mp3" data-title="French Montana - Unforgettable ft. Swae Lee.mp3" data-artist="French Montana ft. Swae Lee.mp3">
+                        French Montana - Unforgettable ft. Swae Lee
+                    </div>
+                </div>
+            </div>
+            
+            <div class="side-image">
+                <img src="images/Untitled_design__7_-removebg-preview.png" alt="Right cassette image">
+            </div>
+        </div>
+    </body>
+    </html>
